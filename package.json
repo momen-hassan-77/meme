@@ -1,0 +1,13 @@
+{
+  "name": "education-platform",
+  "version": "1.0.0",
+  "description": "Education platform with frontend and backend",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "dev": "cd frontend && npm start",
+    "install-deps": "cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test"
+  },
+  "private": true
+}
