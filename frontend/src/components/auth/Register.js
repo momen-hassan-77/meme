@@ -46,6 +46,7 @@ const Register = () => {
             Register
           </Typography>
           {error && <Alert severity="error">{error}</Alert>}
+          }
           <form onSubmit={handleSubmit}>
             <TextField
               fullWidth
